@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kafka_basic.Infra", "kafka_basic.Infra\kafka_basic.Infra.csproj", "{30EAB0AA-DBBA-4833-8C65-D3D2BC480C62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kafka_basic.Service", "kafka_basic.Service\kafka_basic.Service.csproj", "{ABB75994-C4D5-4F06-AD84-0F18055E82CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kafka_basic.Domain", "kafka_basic.Domain\kafka_basic.Domain.csproj", "{8CD8F79D-3F3E-41F2-909D-B5BFBC60BCA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kafka_basic.Api", "kafka_basic.Api\kafka_basic.Api.csproj", "{DE92F2A6-5A86-4B22-BEC4-B44B43786F93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30EAB0AA-DBBA-4833-8C65-D3D2BC480C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EAB0AA-DBBA-4833-8C65-D3D2BC480C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EAB0AA-DBBA-4833-8C65-D3D2BC480C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EAB0AA-DBBA-4833-8C65-D3D2BC480C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB75994-C4D5-4F06-AD84-0F18055E82CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB75994-C4D5-4F06-AD84-0F18055E82CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB75994-C4D5-4F06-AD84-0F18055E82CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB75994-C4D5-4F06-AD84-0F18055E82CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD8F79D-3F3E-41F2-909D-B5BFBC60BCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD8F79D-3F3E-41F2-909D-B5BFBC60BCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD8F79D-3F3E-41F2-909D-B5BFBC60BCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD8F79D-3F3E-41F2-909D-B5BFBC60BCA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE92F2A6-5A86-4B22-BEC4-B44B43786F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE92F2A6-5A86-4B22-BEC4-B44B43786F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE92F2A6-5A86-4B22-BEC4-B44B43786F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE92F2A6-5A86-4B22-BEC4-B44B43786F93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
